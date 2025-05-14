@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ejercicios Clase 1 - JavaScript</title>
+</head>
+<body>
+  <h1>💻 Ejercicios de práctica - Clase 1</h1>
+  <p>📌 Abre la consola del navegador (F12 → pestaña "Consola") para ver los resultados.</p>
+  <p>🧠 Escribe tu código dentro del bloque <code>&lt;script&gt;</code> al final de este archivo.</p>
+
+  <h2>🔹 Ejercicio 1: Declarar variables</h2>
+  <p>Declara las siguientes variables y muestra su contenido y tipo en la consola con <code>console.log</code> y <code>typeof</code>:</p>
+  <ul>
+    <li>Tu nombre</li>
+    <li>Tu edad</li>
+    <li>¿Eres estudiante? (valor booleano)</li>
+    <li>Tu color favorito</li>
+    <li>Una variable con valor <code>null</code></li>
+  </ul>
+
+  <h2>🔹 Ejercicio 2: Mensaje personalizado</h2>
+  <p>Usa las variables del ejercicio anterior para mostrar un mensaje como:</p>
+  <blockquote>
+    "Hola, me llamo ___, tengo ___ años y mi color favorito es ___."
+  </blockquote>
+
+  <h2>🔹 Ejercicio 3: Cambiar el valor de una variable</h2>
+  <p>Declara una variable <code>estadoAnimo</code> con valor inicial "feliz", luego cámbiala a "cansado" y muestra ambos estados.</p>
+
+  <h2>🔹 Ejercicio 4: Concatenación con distintos tipos</h2>
+  <p>Declara una variable <code>aniosEstudio</code> con un número, y otra <code>fraseFinal</code> con una oración que diga cuánto tiempo llevas estudiando. Usa concatenación para armar la frase.</p>
+
+  <h2>🔹 Ejercicio 5: Sorpresa de tipos</h2>
+  <p>¿Qué crees que va a pasar con este código? Escribe tu predicción en un comentario antes de ejecutarlo:</p>
+  <pre>
+    let a = "5";
+    let b = 2;
+    console.log(a + b);
+    console.log(typeof (a + b));
+  </pre>
+
+  <h2>🔹 Ejercicio 6 (Bonus): Conversión de tipos</h2>
+  <p>Declara una variable <code>numeroComoTexto = "10"</code> y conviértela a número con <code>Number()</code>. Luego súmale 5 y muestra el resultado.</p>
+
+  <h2>✅ Entregable</h2>
+  <p>Cuando termines, guarda tu archivo y súbelo a GitHub si ya lo configuraste.</p>
+
+  <hr>
+  <script>
+    // Escribe tus respuestas aquí abajo:
+    // Ejercicios de práctica - Clase 1
+    let name = "Darío";
+    let age = 50;
+    let student = true;
+    let color = "azul";
+    let valornull = null;
+
+    console.log("Nombre:", name);
+    console.log("Edad:", age);
+    console.log("¿Eres estudiante?:", student);
+    console.log("Color favorito:", color);
+    console.log("Valor", null);
+
+    // Ejercicios de práctica - Clase 2
+    let mensaje = `Hola, me llamo ${name}, tengo ${age} años y mi color favorito es ${color}.`;
+    console.log(mensaje);
+
+    // Ejercicios de práctica - Clase 3
+    let estadoAnimo = "feliz";
+    console.log("Estado de ánimo inicial:", estadoAnimo);
+
+    estadoAnimo = "cansado";
+    console.log("Estado de ánimo actual:", estadoAnimo);
+
+
+    // Ejercicios de práctica - Clase 4
+    let diasEstudio = 4;
+    let fraseFinal = "Llevo " + diasEstudio + " dias estudiando con dolor de cabeza";
+
+    console.log(fraseFinal);
+
+    // Ejercicios de práctica - Clase 5
+    // une las cifras 5 y 2 dando un resultado de 52
+
+    // Ejercicios de práctica - Clase 5
+    let numeroComoTexto = "10";
+    let numero = numero(numeroComoTexto);
+    let resultado = numero + 5;
+
+    console.log("Resultado:", resultado);
+
+
+
+  </script>
+</body>
+</html>
